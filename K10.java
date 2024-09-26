@@ -1,18 +1,14 @@
-public class K10 {
+public class K10{
 public static void main(String[] args){
-String str ="OBJECT";
-int len = str.length();
-for(int i=1;i<=len;i++){
-for(int j=len;j>i;j--){
-System.out.print(" ");
-}
-System.out.println(str.substring(0,i));
-}
-for (int i=len-1;i >=1;i--){
-for(int j=len;j>i;j--){
-System.out.print(" ");
-}
-System.out.println(str.substring(0,i));
-}
+int num1=3;
+String info1="";
+String info2="";
+String info3="";
+info1=String.valueOf(num1);
+for(int i=1;i<4;i++){
+info2=String.valueOf(i);
+info3=String.valueOf(num1*i);
+  System.out.println(info1+"*"+info2+"="+info3);
+}	
 }
 }
