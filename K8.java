@@ -1,20 +1,19 @@
-public class k8{
-    public static void main(String[] args) {
-        for (int i = 65; i <= 90; i++){
-            System.out.print(i +" ");
-        }
-        System.out.println();
-        for (int i =65;i <=90;i++) {
-             System.out.print((char) i +" ");
-        }
-        System.out.println();
-        for(int i =97;i<=122;i++) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
-        for (int i =97;i<=122;i++) {
-            System.out.print((char)i +" ");
-        }        
-        System.out.println();
-    }
+
+public class K8{
+public static void main(String[] args){
+int num1=3;
+String info1="";
+String info2="";
+String info3="";
+info1=String.valueOf(num1);
+info2=String.valueOf(1);
+info3=String.valueOf(num1*1);
+System.out.println(info1+"*"+info2+"="+info3);	
+info2=String.valueOf(2);
+info3=String.valueOf(num1*2);
+System.out.println(info1+"*"+info2+"="+info3);
+info2=String.valueOf(3);
+info3=String.valueOf(num1*3);	
+System.out.println(info1+"*"+info2+"="+info3);
+}
 }
