@@ -1,12 +1,21 @@
-public class k9 {
-public static void main(String[] args) {
-String word = "Object";
-int length = word.length();
-for(int i =1; i<= length; i++) {
-System.out.println(word.substring(0,i));
+public class K9{
+public static void main(String[] args){
+int num1=3;
+String info1="";
+String info2="";
+String info3="";
+info1=String.valueOf(num1);
+info2=String.valueOf(1);
+info3=String.valueOf(num1*1);
+System.out.println(info1+"*"+info2+"="+info3);	
+info2=String.valueOf(2);
+info3=String.valueOf(num1*2);
+System.out.println(info1+"*"+info2+"="+info3);
+info2=String.valueOf(3);
+info3=String.valueOf(num1*3);
+System.out.println(info1+"*"+info2+"="+info3);
 }
-for(int i =length - 1; i>=1; i--) {
-System.out.println(word.substring(0,i));
 }
-}
-}
+
+
+
